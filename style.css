@@ -1,0 +1,165 @@
+/* mulish font import */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+  font-family: "Mulish", sans-serif;
+  max-width: 1004px;
+}
+
+/* common styling */
+* {
+  margin: 0;
+}
+
+.container {
+  margin: 42px 116px;
+  border-radius: 1rem;
+}
+
+h3 {
+  font-size: 1.9rem;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+}
+
+.span {
+  color: rgb(255, 84, 0);
+}
+
+p,
+li {
+  font-size: .98rem;
+  font-weight: normal;
+  line-height: normal;
+  text-align: center;
+}
+
+.btn-primary {
+  width: 150px;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  background: rgb(255, 84, 0);
+  border: 1px solid rgb(255, 84, 0);
+  color: white;
+  font-weight: 800;
+}
+
+/* navbar styling */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 240px;
+}
+
+.logo img {
+  margin-right: .91rem;
+  width: 40px;
+  height: 48px;
+}
+
+.nav-options {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2.36rem;
+}
+
+.nav-options p {
+  cursor: pointer;
+}
+
+/* banner section */
+.explore-your-travel {
+  background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%), url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+  padding: 7rem 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.explore-container h3 {
+  color: white;
+  font-size: 3.44rem;
+  font-weight: 800;
+}
+
+.explore-container p {
+  color: rgb(209, 212, 214);
+  font-size: 1rem;
+  line-height: 1.4rem;
+  width: 581px;
+  padding: 1.3rem 0;
+  margin: auto;
+}
+
+.Travel-inputs {
+  margin-top: 2rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  backdrop-filter: blur(4px);
+}
+
+input,
+select {
+  width: 150px;
+  height: 43px;
+  padding: 0 0.4rem;
+  margin: 0 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: .92rem;
+}
+
+
+
+/* popular section */
+.popular-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.text-content {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  row-gap: .50rem;
+  justify-content: space-between;
+}
+
+.image img {
+  width: 364px;
+  height: 400px;
+}
+
+.text-content p,
+.text-content li {
+  text-align: left;
+  font-size: .86rem;
+  font-weight: 400;
+}
+
+.text-content p,
+.text-content li,
+.text-content h3 {
+  text-align: left;
+}
